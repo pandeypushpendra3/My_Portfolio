@@ -1,43 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
+	<head>
+		<meta charset="utf-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1"
+		/>
+		<meta name="theme-color" content="#000000" />
+		<meta
+			data-react-helmet="true"
+			property="og:url"
+			content="https://nitesh-goshwami.netlify.app/" 
+		/> <!-- It should be deployed link -->
+		<meta name="author" content="Pushpendra Kumar Pandey" />
+		<meta
+			data-react-helmet="true"
+			name="twitter:creator"
+			content="Pandeypushpendra3@gmail.com"
+		/>
+		<meta
+			data-react-helmet="true"
+			name="twitter:title"
+			content="Pushpendra Kumar Pandey"
+		/>
+		<meta
+			data-react-helmet="true"
+			name="twitter:description"
+			content="Hi, I am Pushpendra, I build things for web."
+		/>
+		<script
+			src="https://kit.fontawesome.com/249783f98b.js"
+			crossorigin="anonymous"
+		></script>
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
-  </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.10.1/devicon.min.css"
+		/>
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&family=Rajdhani:wght@300;400;500;600;700&display=swap"
+			rel="stylesheet"
+		/>
+		<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+		<link
+			rel="icon"
+			href="https://lh3.googleusercontent.com/proxy/RlPtjIgYCIvvDXgirT4EJxrVqOsY_DCbkHBblNXuS_UDzydXKO6a7a-CaRyAKp7GNWM5GLp7H5utXwiPAkpBviMzW7sCQC0"
+		/>
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap"
+			rel="stylesheet"
+		/>
+		<title>Pushpendra Kumar Pandey | Full Stack Developer</title>
+		<link href="./static/css/2.e44fbca6.chunk.css" rel="stylesheet" />
+		<link
+			href="./static/css/main.58c5f3a5.chunk.css"
+			rel="stylesheet"
+		/>
+		<link
+			rel="icon"
+			href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQMAAADCCAMAAAB6zFdcAAAAkFBMVEX///8ujd45m+Q4meNKqegti947neQsit1Ip+gYhNwwkeCtzfA+oeZMqugulOGAvOx6tepTr+q83Pbd7fr1+v6azPHQ4vbn8fschtzz+P2ky/DK4/fs9fzU6fmVyPA8o+e20/GNuuoAgNuXwOxcoeNNmuJvr+gikeFbqOaw1POIwO50t+y12fWi0PJmtevK5Pe+9zuaAAADUklEQVR4nO3ZW3eiMBSGYQFFdIAqeECpg9pWalvt//93o3LUUsBZ0qzG97mTlYudz52EQ6sFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADuweRPueXEFV1iw1xl3au07q8mogttznTtdevwet7TTHSxDXnudmo6xLAaiS63CY+9uhEceV1HdMENWFyVQaezHoiu+PbcnnJVBor3It+uoFyr238UXfOtzXvXhyBdJwyuDkF5EV3zzTnPdr9Up+d1zzLwJNwYq4wmT33vLAQZj8hqjt1VstZQpLxZqvbk5ZbHSnQ1gvidLARPugOypkkWgnKvjdBadrMQRNcizECxY8p9Hg1HYT/OoL8RXYow8zBphFB0KcKMsgwWomtpwMyfrwZF5vlnpEGawVZYpU3xN2H6F18Iw9z+twy1iP0mrthGTF+TqRXK9f00HSjZprgM7bIINPs1G5tmYIqrtwHz0iY4hZDdGuvJNVVgxTe3DdUq9jQdbWrRJakycKsjUM/6IM5AF1jzrZmqXkXL7Qd2fE01xJV8a1u7dPondu5cSDOQ6Fwwc3MtXgialrs/cLRkrDz3B75qJnRt81Bkl39f8q7Ho1V57hPfkjmZ6qbGu6GRmozX5HleCNIuqLW+d1lkTVf2Y0bpUlBrvSFMIzDfmy7tx0z1IGLu6wx/M+PhgS7PeyQ3zeBvjdFOMjowJbpDuiqDRRpBvch+iWsy8NOFcFgKEn17dnUjUp3BWA8Mo/boXyTNIKiYlW+ZaQJGYMj0vdFNZhaMvx80W4wtM2uCQxv4P1dh87IMzvpgO8zN2AgOG8HZb3keFY7cZHL5PhgNz6b8xVBcvU3IMsj1wXtpBEFbps2gdcygHTGyPpgm1woZlkTH4klRBh9GWQR7ybqgOINtSQaSbYcnbmBFchn4ybVLbaMt1aEYK+qD0XfLwBhLtw6OXCP5j3Nno/O1EQ6rYLiTbTOMFWbQctoXx6GxH8vz6uxScQat0aeT8+lKuQYS32RwV9z2MHLPGdAHWR9YO9GlCEMGZHBEBmRw5FpxBkMyuOcMZmkG8nw/vNpDsh9I+lBYx2PUCNaH6EJEmu6toXXfERy4zqfUz8YAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOD//QN8glUvhfgU/AAAAABJRU5ErkJggg=="
+			type="image/icon type"
+		/> <!-- N icon-->
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
-  </body>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link
+			rel="preconnect"
+			href="https://fonts.gstatic.com"
+			crossorigin
+		/>
+		<link
+			rel="apple-touch-icon-precomposed"
+			type="image/x-icon"
+			href="https://avatars.githubusercontent.com/u/86410121?v=4"
+			sizes="72x72"
+		/> <!-- profile pic-->
+		<link
+			rel="preload"
+			href="https://avatars.githubusercontent.com/u/86410121?v=4"
+			as="image"
+		/>
+		<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+		<title>React App</title>
+	</head>
+	<body>
+		<div id="root"></div>
+	</body>
 </html>
