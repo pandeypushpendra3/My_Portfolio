@@ -79,8 +79,9 @@ const Home = ({ scrollRef }) => {
 						</div>
 					</h1>
 					<h1>
-					I'm an Aspiring full-stack developer with a specialization in MERN stack.
-					I'm very adaptive and quick learner . 
+					I am a Passionate, dedicated, goal-oriented and aspiring MERN-Stack web developer. Excited to become an integral part of an organization 
+                    and make a significant contribution to its innovations and
+                    achievements. 
 					</h1>
 					<div className={styles.btn}>
 						<a
@@ -171,8 +172,7 @@ const Home = ({ scrollRef }) => {
 					handleButton={handleShowMoreBtn}
 				/>
 			</div>
-
-			<div
+                 <div
 				style={{
 					background: `${newTheme.highlightBackground}`,
 				}}

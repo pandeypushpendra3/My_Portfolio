@@ -9,14 +9,14 @@ const About = () => {
 	const img =
 		width < 650
 			? 'https://avatars.githubusercontent.com/u/86410106?v=4' // my Picture
-			: 'https://github.com/himrd95/portfolio/blob/main/public/developer.gif?raw=true';
+			: 'https://www.damiestechnologies.com/img/programmer.gif';
 	return (
 		<div
 			className={styles.container}
 			style={{ boxShadow: `3px 3px 5px ${newTheme.line}` }}
 		>
 			<div className={styles.first}>
-				<img src={"https://github.com/himrd95/portfolio/blob/main/public/developer.gif?raw=true"} alt='' />
+				<img src={"https://www.damiestechnologies.com/img/programmer.gif"} alt='' />
 			</div>
 			<div className={styles.second}>
 				<h1
@@ -31,9 +31,7 @@ const About = () => {
 					className={styles.aboutMe}
 				>
 					Hello! My name is Pushpendra kumar pandey and I enjoy creating things that
-					live on the internet. My interest in web development started
-					back last year when I was trying to edit things on the web —
-					taught me a lot about HTML & CSS!. <br />
+					live on the internet.
 					<br /> Fast Forwarding to today, I built a number of web
 					applications and 3 major projects. Learned a great deal
 					about teamwork, leadership, and communication. After months
