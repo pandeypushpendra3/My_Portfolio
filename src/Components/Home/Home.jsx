@@ -75,11 +75,11 @@ const Home = ({ scrollRef }) => {
 							className={styles.name}
 							style={{ color: `${newTheme.title}` }}
 						>
-							Pushpendra Kumar Pandey.
+							Pushpendra 
 						</div>
 					</h1>
 					<h1>
-					I am a Goal-oriented, productive and aspiring MERN-Stack web developer. Excited to become an integral part of an organization 
+					I am a goal-oriented, productive and aspiring MERN-Stack web developer. Excited to become an integral part of an organization 
                     and make a significant contribution to its innovations and
                     achievements. 
 					</h1>
