@@ -2,7 +2,7 @@ export const projects = [
 	{
 		img: 'https://user-images.githubusercontent.com/86410106/143928012-c66d0c3c-1f94-4894-b1f0-2326be4f3087.png',
 		title: 'Target.com clone',
-		des: 'This is a clone of a US based e-commerce website for all  products build with HTML,CSS,JS. Have features which allows user sort the product on the basis of price,on payment page user can apply promocode',
+		des: 'This is a clone of a US based e-commerce website for all  products build with HTML,CSS,JS. Have features which allows users sort the product on the basis of price,on payment page users can apply promocode',
 		demo: '',
 		live: 'https://pandeypushpendra3.github.io/target/', // deployed link
 		gitHub: 'https://github.com/pandeypushpendra3/target/tree/main',
@@ -20,7 +20,7 @@ export const projects = [
 	{
 		img: 'https://user-images.githubusercontent.com/86410106/143930130-7ecfebdb-2dbc-4cdf-84e6-239dcfcc1273.png',
 		title: 'myGlamm',
-		des: 'Myglamm is a beauty product website which deals in each and every type of beauty product & its collection.This website has features such as User can buy product,select the product,checkout',
+		des: 'Myglamm is a beauty product website which deals in each and every type of beauty product & its collection.This website has features such as users can buy product,select the product,checkout.',
 		demo: '',
 		live: '',
 		gitHub: 'https://github.com/suvamAdhikary/MyGlamm-with-Backend',
