@@ -2,7 +2,7 @@ export const projects = [
 	{
 		img: 'https://user-images.githubusercontent.com/86410106/143928012-c66d0c3c-1f94-4894-b1f0-2326be4f3087.png',
 		title: 'Target.com clone',
-		des: 'This is a clone of a US based e-commerce website for all  products build with HTML,CSS,JS. Have features which allows users sort the product on the basis of price,on payment page users can apply promocode',
+		des: 'This is a clone of a US based e-commerce website for all  products build with HTML,CSS,JS. Have features which allows users sort the product on the basis of price,on payment page users can apply promocode.',
 		demo: '',
 		live: 'https://pandeypushpendra3.github.io/target/', // deployed link
 		gitHub: 'https://github.com/pandeypushpendra3/target/tree/main',
@@ -13,7 +13,7 @@ export const projects = [
 		title: 'scAvengers',
 		des: 'scAvengers is an E-waste Management Application that allows users to sell e-waste scrap at any price they want. It has features for users sign-in/sign-up, If users are not satisfied with our price they can bargain also. Users can upload their scrap photos as well as receipts.This is our very first self-made product application.',
 		demo: '',
-		live: 'https://e-waste-scavenger.herokuapp.com/',
+		live: 'https://e-waste-management.netlify.app/',
 		gitHub: 'https://github.com/girishv694/E-wasteManagement',
 		technologies: ['React', 'MongoDb', 'Nodejs',"Express" ,'CSS'],
 	},
@@ -22,7 +22,7 @@ export const projects = [
 		title: 'myGlamm',
 		des: 'Myglamm is a beauty product website which deals in each and every type of beauty product & its collection.This website has features such as users can buy product,select the product,checkout.',
 		demo: '',
-		live: '',
+		live: 'https://myglamm-clone-jir1r73x1-suvamadhikary.vercel.app/',
 		gitHub: 'https://github.com/suvamAdhikary/MyGlamm-with-Backend',
 		technologies: ['Express', 'MongoDb', 'HTML', 'CSS', 'Ejs',"JavaScript","Bootstrap"],
 	},

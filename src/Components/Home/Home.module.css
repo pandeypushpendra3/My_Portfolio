@@ -56,7 +56,7 @@ body::after {
 }
 .name {
 	color: #ccd6f6;
-	font-size: clamp(40px, 8vw, 80px);
+	font-size: clamp(30px, 8vw, 70px);
 }
 .profile {
 	margin-top: 0;
