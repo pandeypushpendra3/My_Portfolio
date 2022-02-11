@@ -1,8 +1,8 @@
 export const projects = [
 	{
 		img: 'https://user-images.githubusercontent.com/86410106/143928012-c66d0c3c-1f94-4894-b1f0-2326be4f3087.png',
-		title: 'Target.com clone',
-		des: 'This is a clone of a US based e-commerce website for all  products build with HTML,CSS,JS. Have features which allows users sort the product on the basis of price,on payment page users can apply promocode.',
+		title: 'Clone of Target.com ',
+		des: 'This is a clone of a US-based e-commerce website for all products built with HTML, CSS, JS. Have features that allow users to sort the product on the basis of price, on the payment page users can apply promo codes',
 		demo: '',
 		live: 'https://pandeypushpendra3.github.io/target/', // deployed link
 		gitHub: 'https://github.com/pandeypushpendra3/target/tree/main',
@@ -19,22 +19,22 @@ export const projects = [
 	},
 	{
 		img: 'https://user-images.githubusercontent.com/86410106/143930130-7ecfebdb-2dbc-4cdf-84e6-239dcfcc1273.png',
-		title: 'myGlamm',
+		title: 'Clone of myGlamm',
 		des: 'Myglamm is a beauty product website which deals in each and every type of beauty product & its collection.This website has features such as users can buy product,select the product,checkout.',
 		demo: '',
 		live: 'https://myglamm-clone-jir1r73x1-suvamadhikary.vercel.app/',
 		gitHub: 'https://github.com/suvamAdhikary/MyGlamm-with-Backend',
 		technologies: ['Express', 'MongoDb', 'HTML', 'CSS', 'Ejs',"JavaScript","Bootstrap"],
 	},
-	// {
-	// 	img: 'https://user-images.githubusercontent.com/73213873/107113597-f547e200-6885-11eb-8abd-72106074907a.png',
-	// 	title: 'Clone of Medium',
-	// 	des: 'Clone of a blogging web application, Medium where a user can read the blogs written by others and show their response also, one can share their thoughts by posting a blog.',
-	// 	demo: '',
-	// 	live: 'https://medium-web.netlify.app/',
-	// 	gitHub: 'https://github.com/himrd95/Medium-Clone.git',
-	// 	technologies: ['React', 'HTML', 'CSS', 'javaScript'],
-	// },
+	{
+		img: 'https://user-images.githubusercontent.com/86410034/129320136-4642eb9e-8500-4058-a8c3-440bb38dafc7.png',
+		title: 'Clone of Bluemercury',
+		des: 'This is a clone of a US-based e-commerce website for cosmetic products built with HTML, CSS, and JS Has features that allow user live search of the products with a sorting feature.',
+		demo: '',
+		live: 'https://bluemercuryclone.netlify.app/html/homepage.html',
+		gitHub: 'https://github.com/Nitesh-Goshwami/Bluemercury',
+		technologies: ['HTML', 'CSS', 'javaScript'],
+	},
 	// {
 	// 	img: 'https://camo.githubusercontent.com/b7f4aa8c34ddf776dd19b78dc3488456470a73e5026f48784e9e753601468802/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f4c62507030307771454537386c6f68584d372f67697068792e676966',
 	// 	title: 'Clone of Fitness Blender',
