@@ -162,14 +162,14 @@ const Home = ({ scrollRef }) => {
 						<Card key={index} {...item} />
 					))}
 				</div>
-				<Button
+				{/* <Button
 					text={
-						projects.length !== projectArray.length
+						projects.length == 3
 							? 'Show More'
 							: 'Show Less'
 					}
 					handleButton={handleShowMoreBtn}
-				/>
+				/> */}
 			</div>
                  <div
 				style={{
